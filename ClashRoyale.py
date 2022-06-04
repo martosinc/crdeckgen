@@ -6,8 +6,6 @@
 
 import torch
 import torch.nn as nn
-import numpy as np
-import random
 
 cards = ['START', 'mini-pekka', 'ice-wizard', 'zap', 'baby-dragon', 'fisherman', 'night-witch', 'bomber', 'hunter', 'freeze', 'tombstone', 'lava-hound', 'inferno-tower', 'valkyrie', 'bandit', 'lightning', 'earthquake', 'mega-knight', 'electro-spirit', 'bats', 'fireball', 'spear-goblins', 'mega-minion', 'knight', 'golden-knight', 'ice-golem', 'zappies', 'firecracker', 'electro-wizard', 'rocket', 'clone', 'wall-breakers', 'miner', 'archer-queen', 'skeleton-army', 'musketeer', 'dart-goblin', 'fire-spirit', 'skeleton-king', 'goblin-barrel', 'goblin-gang', 'cannon-cart', 'giant-skeleton', 'battle-ram', 'x-bow', 'royal-giant', 'flying-machine', 'electro-dragon', 'archers', 'princess', 'tornado', 'elite-barbarians', 'the-log', 'balloon', 'goblin-drill', 'royal-hogs', 'three-musketeers', 'tesla', 'magic-archer', 'lumberjack', 'golem', 'inferno-dragon', 'pekka', 'skeletons', 'graveyard', 'skeleton-dragons', 'guards', 'skeleton-barrel', 'mortar', 'arrows', 'bowler', 'heal-spirit', 'royal-ghost', 'bomb-tower', 'hog-rider', 'barbarian-barrel', 'royal-delivery', 'poison', 'ice-spirit', 'barbarians', 'cannon', 'mighty-miner', 'elixir-collector']
 
