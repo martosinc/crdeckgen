@@ -76,6 +76,12 @@ def LinkGen(deck):
 
 for i in range(50):
     decksample = sample()
+
+    valid = True
+    for i in decksample:
+        if decksample.count(i) > 1:
+            valid = False
     
-    print(decksample)
-    print(LinkGen(decksample))
+    if valid:
+        print(decksample)
+        print(LinkGen(decksample))
